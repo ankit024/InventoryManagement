@@ -1,13 +1,24 @@
 
 $(document).ready(() => {
     let inventoryTable = $('#inventoryManagementTable');
+    let inventoryChefTable = $('#inventoryChefTable');
+    let managerRoleTable = $('.managerRoleTable')
+    let chefRoleTable = $('.chefRoleTable')
+    let roleDefine = JSON.parse($.cookie("role"));
+
+    if (roleDefine === 'chef') {
+        managerRoleTable.hide();
+    } else {
+        chefRoleTable.hide();
+    }
+
+
     const fetchInventoryItemCall = () => {
         $('#mainLoader').show();
         const url = 'getInventoryItem';
         const queryData = {};
         XHRCall(url, queryData, true).then((responseData) => {
             let dataQuery = responseData.response;
-            console.log("TCL: fetchInventoryItemCall -> dataQuery", dataQuery)
             let html = '';
             let vendorTemp = '';
             let bakerTemp = '';
@@ -17,11 +28,15 @@ $(document).ready(() => {
                             <td>${data.category}</td>
                             <td>${data.itemName}</td>
                             <td>${data.quantity}</td>`;
+
                 data.vendor.map(d => {
-                    totalvalue += parseInt(d.vendor_quantity)
-                    html += `<td>${d.vendor_quantity}</td>`;
+                    totalvalue += parseInt(d.vendor_quantity);
+                    if (roleDefine != 'chef') {
+                        html += `<td>${d.vendor_quantity}</td>`;
+                    }
                     if (parseInt(d.vendor_quantity) == 0) { st++; }
                 });
+
                 html += `<td>${totalvalue}</td>`;
                 if (st > 0) { html += `<td class= "statusValue colorRed">Insufficient</td>`; }
                 else {
@@ -33,19 +48,19 @@ $(document).ready(() => {
                 if (foodCategory.length > 0) {
                     foodCategory.map(itemName => {
                         if (itemName === 'bakery') {
-                            html += `<td class="colorChange">Y</td>`
+                            html += `<td class="colorRed">Y</td>`
                         } else if (itemName === 'indian') {
-                            html += `<td class="colorChange">Y</td>`
+                            html += `<td class="colorRed">Y</td>`
                         } else if (itemName === 'italian') {
-                            html += `<td class="colorChange">Y</td>`
+                            html += `<td class="colorRed">Y</td>`
                         } else {
                             html += `<td>N</td>`
                         }
                     })
                 } else {
-                    html += `<td>N</td>`
-                    html += `<td>N</td>`
-                    html += `<td>N</td>`
+                    html += `<td class="colorGreen">N</td>`
+                    html += `<td class="colorGreen">N</td>`
+                    html += `<td class="colorGreen">N</td>`
                 }
 
                 html += '</tr>'
@@ -54,18 +69,73 @@ $(document).ready(() => {
             inventoryTable.DataTable({
                 "pagingType": "full_numbers"
             });
-            let statusData = $('.statusValue').text();
-            let foodData = $('.colorChange');
-            if (statusData === 'Insufficient') {
-                foodData.addClass('colorRed');
-                foodData.removeClass('colorGreen');
-            } else if (statusData === 'OK')
-                foodData.addClass('colorGreen');
-            foodData.removeClass('colorRed');
-
-
         });
     };
-    fetchInventoryItemCall();
+
+    const fetchInventoryChefItemCall = () => {
+        $('#mainLoader').show();
+        const url = 'getInventoryItem';
+        const queryData = {};
+        XHRCall(url, queryData, true).then((responseData) => {
+            let dataQuery = responseData.response;
+            let html = '';
+            let vendorTemp = '';
+            let bakerTemp = '';
+            dataQuery.forEach((data, index) => {
+                let totalvalue = st = 0;
+                html += `<tr>
+                            <td>${data.category}</td>
+                            <td>${data.itemName}</td>
+                            <td>${data.quantity}</td>`;
+
+                data.vendor.map(d => {
+                    totalvalue += parseInt(d.vendor_quantity);
+                    if (roleDefine != 'chef') {
+                        html += `<td>${d.vendor_quantity}</td>`;
+                    }
+                    if (parseInt(d.vendor_quantity) == 0) { st++; }
+                });
+
+                html += `<td>${totalvalue}</td>`;
+                if (st > 0) { html += `<td class= "statusValue colorRed">Insufficient</td>`; }
+                else {
+                    if (data.quantity > totalvalue) { html += `<td class="statusValue colorRed">Insufficient</td>`; }
+                    else { html += `<td class="statusValue colorGreen">OK</td>`; }
+                }
+
+                let foodCategory = data.foodCategory;
+                if (foodCategory.length > 0) {
+                    foodCategory.map(itemName => {
+                        if (itemName === 'bakery') {
+                            html += `<td class="colorRed">Y</td>`
+                        } else if (itemName === 'indian') {
+                            html += `<td class="colorRed">Y</td>`
+                        } else if (itemName === 'italian') {
+                            html += `<td class="colorRed">Y</td>`
+                        } else {
+                            html += `<td>N</td>`
+                        }
+                    })
+                } else {
+                    html += `<td class="colorGreen">N</td>`
+                    html += `<td class="colorGreen">N</td>`
+                    html += `<td class="colorGreen">N</td>`
+                }
+
+                html += '</tr>'
+            });
+            inventoryChefTable.append(`<tbody>${html}</tbody>`);
+            inventoryChefTable.DataTable({
+                "pagingType": "full_numbers"
+            });
+        });
+    };
+
+
+    if (roleDefine === 'chef') {
+        fetchInventoryChefItemCall();
+    } else {
+        fetchInventoryItemCall();
+    }
 
 });

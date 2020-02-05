@@ -10,6 +10,8 @@ $(document).ready(() => {
   let submitvendor2Form = $('.submitvendor2Form');
   let vendorSelectData = $('.vendorSelectData');
   let vendorSelectChosenQuantity = $('.vendorSelectChosenQuantity')
+  let itemActiveCookieClick = $('.itemActiveCookieClick')
+  let QuantityActiveCookieClick = $('.QuantityActiveCookieClick')
 
   let submitFormButton = $('.submitManagerForm');
   let cusiniesMultipleSelect = $('.cusiniesMultipleSelect');
@@ -19,22 +21,11 @@ $(document).ready(() => {
   itemChosenVendor1.chosen();
   itemChosenVendor2.chosen();
 
-  // $('#vendor2Form').hide();
-  // $('#vendor1Form').hide();
-  // $('#managerForm').hide();
+  if (roleDefine === 'chef') {
+    itemActiveCookieClick.hide()
+    QuantityActiveCookieClick.hide()
+  }
 
-  // if (roleDefine === 'vendor2') {
-  //   $('#vendor2Form').show();
-  //   $('#vendor1Form').hide();
-  //   $('#managerForm').hide();
-
-  // } else if (roleDefine === 'vendor1') {
-  //   $('#vendor1Form').show();
-  //   $('#managerForm').hide();
-  //   $('#vendor2Form').hide();
-  // } else {
-  //   $('#managerForm').show();
-  // }
 
 
   const fetchCategoryItemCall = () => {

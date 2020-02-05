@@ -1,0 +1,28 @@
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139676694566784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/inventory_management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }

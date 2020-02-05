@@ -13694,3 +13694,6 @@ div#summaryHeaders {
 
 .colorGreen {
   color: green; }
+
+td {
+  text-transform: uppercase; }

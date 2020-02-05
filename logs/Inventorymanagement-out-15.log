@@ -1,0 +1,121 @@
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140382735292288:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/inventory_management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /login [32m200 [0m1380.646 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m79.681 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m818.881 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m823.375 ms - 37636[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m1588.069 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m1422.598 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m1257.298 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m1593.605 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m784.291 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m44.463 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m36.554 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m43.224 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m42.931 ms - -[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m43.498 ms - 13584[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m34.304 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m36.312 ms - -[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m56.194 ms - 17291[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m35.876 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m32.992 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m44.862 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m85.638 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m46.867 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m35.792 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m43.141 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m45.542 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m34.400 ms - -[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m35.489 ms - -[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m33.355 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m910.146 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m64.930 ms - -[0m
+[0mGET /icon.png [32m200 [0m39.921 ms - 13156[0m
+[0mPOST /login [36m302 [0m524.364 ms - 54[0m
+[0mGET /home [32m200 [0m271.092 ms - -[0m
+[0mGET /css/main.css [32m200 [0m80.311 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m117.725 ms - 224[0m
+[0mGET /logout [36m302 [0m72.787 ms - 56[0m
+[0mGET /login [32m200 [0m173.001 ms - -[0m
+[0mPOST /login [36m302 [0m150.475 ms - 54[0m
+[0mGET /home [32m200 [0m209.313 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m124.324 ms - 224[0m
+[0mGET /dashboard [32m200 [0m179.899 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m486.914 ms - 224[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /getInventoryItem [32m200 [0m543.054 ms - 924[0m
+[0mGET /logout [36m302 [0m78.115 ms - 56[0m
+[0mGET /login [32m200 [0m119.325 ms - -[0m

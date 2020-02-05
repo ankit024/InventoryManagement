@@ -9,10 +9,10 @@
     .collapse.navbar-collapse.justify-content-between
       if user
         ul.nav.navbar-nav.bottomBorderDesign.mx-5
-          li.borderBottomCustomCss.summaryActiveCookieClick(class=(title === 'Home') ? 'active' : undefined)
+          li.borderBottomCustomCss.itemActiveCookieClick(class=(title === 'Home') ? 'active' : undefined)
             a(href='/' style="font-weight: bold;") Add Items
-          li.borderBottomCustomCss.themeanalysisActiveCookieClick(class=(title === 'ThemeAnalysis') ? 'active' : undefined)
-            a(href='/themeAnalysis' style="font-weight: bold;") Vendor Quanitty
+          li.borderBottomCustomCss.QuantityActiveCookieClick(class=(title === 'ThemeAnalysis') ? 'active' : undefined)
+            a(href='/themeAnalysis' style="font-weight: bold;") Vendor Quantity
           li.borderBottomCustomCss.themeanalysisActiveCookieClick(class=(title === 'Dashboard') ? 'active' : undefined)
             a(href='/dashboard' style="font-weight: bold;") Dashobard             
       ul.nav.navbar-nav.navbar-right

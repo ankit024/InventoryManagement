@@ -23387,3 +23387,1712 @@ TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
     name: 'vegetable',
     displayName: 'Vegetables' } ]
 [0mPOST /foodCategories [32m200 [0m106.447 ms - 224[0m
+[0mGET /dashboard [32m200 [0m296.800 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m156.467 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m102.087 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m99.688 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /foodCategories [32m200 [0m98.177 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m109.286 ms - 924[0m
+[0mGET /dashboard [32m200 [0m245.420 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m93.419 ms - 75200[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m96.321 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m113.205 ms - 37636[0m
+[0mGET /css/lib/chosen.css [32m200 [0m105.362 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m104.959 ms - -[0m
+[0mGET /css/main.css [32m200 [0m92.747 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m69.186 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m80.498 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m63.770 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m77.363 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m107.898 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m104.873 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m86.583 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m79.956 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m64.295 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m77.311 ms - 13156[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m65.823 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m67.282 ms - 163[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m111.299 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m68.869 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m73.186 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m72.632 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m71.517 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m63.844 ms - 162[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m83.967 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m74.007 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m72.749 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m109.315 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m68.266 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m77.482 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m85.090 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m77.498 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m81.564 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m66.457 ms - -[0m
+[0mGET /js/main.js [32m200 [0m76.950 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m75.519 ms - 916[0m
+[0mGET /js/dashboard.js [32m200 [0m69.841 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m64.578 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mGET /icon.png [32m200 [0m84.280 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m101.088 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m104.775 ms - 924[0m
+[0mGET /dashboard [32m200 [0m240.317 ms - -[0m
+[0mGET /dashboard [32m200 [0m176.800 ms - -[0m
+[0mGET /dashboard [32m200 [0m158.469 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m63.253 ms - 37636[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m65.036 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m70.692 ms - 75200[0m
+[0mGET /css/lib/chosen.css [32m200 [0m79.073 ms - -[0m
+[0mGET /css/main.css [32m200 [0m73.771 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m79.426 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m59.342 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m62.809 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m58.946 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m66.234 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m68.301 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m72.929 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m64.407 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m65.523 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m62.164 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m61.265 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m72.858 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m73.150 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m81.394 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m70.232 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m71.652 ms - 162[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m67.993 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m77.047 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m62.838 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m59.985 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m67.326 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m68.242 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m64.762 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m63.100 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m74.136 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m88.002 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m65.081 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m65.366 ms - -[0m
+[0mGET /js/main.js [32m200 [0m59.463 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m63.698 ms - 210[0m
+[0mGET /js/dashboard.js [32m200 [0m64.811 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m70.704 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m73.628 ms - 916[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mGET /icon.png [32m200 [0m80.285 ms - 13156[0m
+[0mPOST /getInventoryItem [32m200 [0m116.428 ms - 924[0m
+[0mPOST /foodCategories [32m200 [0m122.560 ms - 224[0m
+[0mGET /logout [36m302 [0m80.172 ms - 56[0m
+[0mGET /login [32m200 [0m174.617 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m30.559 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m31.698 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m38.648 ms - 210[0m
+[0mGET /signup [32m200 [0m151.087 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m29.694 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m29.916 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m30.989 ms - 210[0m
+[0mPOST /signup [36m302 [0m443.691 ms - 46[0m
+[0mGET / [36m302 [0m69.059 ms - 54[0m
+[0mGET /home [32m200 [0m192.559 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m65.844 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m72.116 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m71.574 ms - 210[0m
+[0mGET /dashboard [32m200 [0m147.841 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m79.675 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m78.793 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m64.363 ms - 210[0m
+[0mGET / [36m302 [0m75.363 ms - 54[0m
+[0mGET /home [32m200 [0m163.204 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m61.688 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m77.063 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m68.890 ms - 210[0m
+[0mGET /dashboard [32m200 [0m250.157 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m67.890 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m60.591 ms - 210[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m79.379 ms - 162[0m
+[0mGET /logout [36m302 [0m63.832 ms - 56[0m
+[0mGET /login [32m200 [0m174.838 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m40.185 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m32.306 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m40.334 ms - 210[0m
+[0mPOST /login [36m302 [0m154.189 ms - 56[0m
+[0mGET /login [32m200 [0m144.046 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m34.105 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m32.913 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m34.731 ms - 210[0m
+[0mPOST /login [36m302 [0m153.221 ms - 54[0m
+[0mGET /home [32m200 [0m182.944 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m68.721 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m79.947 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m70.320 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m106.663 ms - 224[0m
+[0mGET /dashboard [32m200 [0m152.529 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m70.121 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m72.760 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m65.054 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /foodCategories [32m200 [0m99.364 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m101.383 ms - 924[0m
+[0mGET /dashboard [32m200 [0m162.969 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m63.094 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m73.495 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m76.402 ms - 75200[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m73.648 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m81.001 ms - -[0m
+[0mGET /css/main.css [32m200 [0m72.767 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m73.600 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m74.171 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m64.829 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m71.730 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m74.294 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m84.452 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m73.245 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m72.402 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m70.665 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m61.939 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m75.372 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m70.398 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m60.833 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m67.695 ms - 163[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m76.650 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m70.657 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m74.733 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m86.123 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m72.573 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m66.643 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m61.843 ms - 162[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m76.055 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m60.836 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m74.305 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m69.858 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m81.908 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m72.649 ms - -[0m
+[0mGET /js/main.js [32m200 [0m61.636 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m63.369 ms - 210[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m78.417 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m77.927 ms - 916[0m
+[0mGET /js/dashboard.js [32m200 [0m68.589 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mGET /icon.png [32m200 [0m67.245 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m104.551 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m108.433 ms - 924[0m
+[0mGET /dashboard [32m200 [0m151.459 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m59.959 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m67.900 ms - 75200[0m
+[0mGET /css/lib/chosen.css [32m200 [0m69.905 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m63.870 ms - 37636[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m70.867 ms - -[0m
+[0mGET /css/main.css [32m200 [0m72.281 ms - -[0m
+[0mGET /dashboard [32m200 [0m177.626 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m73.852 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m81.013 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m166.033 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m68.713 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m152.881 ms - -[0m
+[0mGET /dashboard [32m200 [0m141.910 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m148.320 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m152.413 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m138.069 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m147.196 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m151.347 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m66.102 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m145.357 ms - 163[0m
+[0mGET /js/lib/bootstrap.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m114.217 ms - -[0m
+[0mGET /dashboard [32m200 [0m139.804 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m68.003 ms - 162[0m
+[0mGET /images/newlogo.png [32m200 [0m65.322 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m69.653 ms - -[0m
+[0mGET /css/main.css [32m200 [0m77.460 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m97.399 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m77.217 ms - 75200[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m68.206 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m80.086 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m61.417 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m228.840 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m218.220 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m235.302 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m210.781 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m61.025 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m82.157 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m154.382 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m152.613 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m148.757 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m174.339 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m79.328 ms - 13156[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m73.472 ms - 163[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m74.310 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m81.866 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m86.078 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m79.305 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m78.266 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m77.242 ms - 162[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m82.522 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m63.452 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m78.689 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m65.174 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m62.573 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m64.352 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m62.481 ms - -[0m
+[0mGET /js/main.js [32m200 [0m75.501 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m69.515 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m63.173 ms - 916[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m61.085 ms - 210[0m
+[0mGET /js/dashboard.js [32m200 [0m74.165 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mGET /icon.png [32m200 [0m66.652 ms - 13156[0m
+[0mPOST /getInventoryItem [32m200 [0m98.685 ms - 924[0m
+[0mPOST /foodCategories [32m200 [0m105.802 ms - 224[0m
+[0mGET /logout [36m302 [0m79.289 ms - 56[0m
+[0mGET /login [32m200 [0m112.920 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m32.075 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m28.687 ms - 210[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m41.250 ms - 162[0m
+[0mPOST /login [36m302 [0m136.892 ms - 54[0m
+[0mGET /home [32m200 [0m139.740 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m62.987 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m75.268 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m71.183 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m99.479 ms - 224[0m
+[0mGET /dashboard [32m200 [0m134.824 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m61.880 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m66.072 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m72.942 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /foodCategories [32m200 [0m98.198 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m104.701 ms - 924[0m
+[0mGET /dashboard [32m200 [0m321.505 ms - -[0m
+[0mGET /dashboard [32m200 [0m211.067 ms - -[0m
+[0mGET /dashboard [32m200 [0m187.060 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m62.425 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m62.844 ms - 75200[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m67.955 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m111.861 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m109.863 ms - 37636[0m
+[0mGET /css/main.css [32m200 [0m69.644 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m67.019 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m72.966 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m66.322 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m74.182 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m70.091 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m77.466 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m66.760 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m63.511 ms - 13156[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m66.607 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m79.048 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m63.706 ms - 163[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m72.739 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m70.812 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m70.502 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m65.863 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m71.444 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m61.753 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m85.969 ms - 162[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m77.399 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m69.451 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m73.695 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m72.615 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m68.820 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m73.139 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m69.758 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m61.301 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m76.657 ms - -[0m
+[0mGET /js/main.js [32m200 [0m65.437 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m71.191 ms - 916[0m
+[0mGET /js/dashboard.js [32m200 [0m69.073 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m69.488 ms - 210[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m78.757 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mGET /icon.png [32m200 [0m279.166 ms - 13156[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /foodCategories [32m200 [0m323.775 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m338.604 ms - 924[0m
+[0mGET /logout [36m302 [0m60.792 ms - 56[0m
+[0mGET /login [32m200 [0m136.992 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m35.540 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m38.262 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m28.790 ms - 210[0m
+[0mPOST /login [36m302 [0m148.237 ms - 54[0m
+[0mGET /home [32m200 [0m180.509 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m60.339 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m63.894 ms - 210[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m76.694 ms - 162[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m106.270 ms - 224[0m
+[0mGET /dashboard [32m200 [0m141.130 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m63.793 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m70.392 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m68.992 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /getInventoryItem [32m200 [0m103.849 ms - 924[0m
+[0mPOST /foodCategories [32m200 [0m110.652 ms - 224[0m
+[0mGET /dashboard [32m200 [0m147.496 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m68.543 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m73.165 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m77.796 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mGET /icon.png [32m200 [0m73.658 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m110.005 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m104.792 ms - 924[0m
+[0mGET /dashboard [32m200 [0m259.783 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m64.850 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m68.132 ms - 75200[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m65.112 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m78.263 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m87.633 ms - 37636[0m
+[0mGET /css/main.css [32m200 [0m78.929 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m60.713 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m80.245 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m66.726 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m72.842 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m60.600 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m68.992 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m63.606 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m82.047 ms - 13156[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m75.185 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m68.451 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m66.655 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m76.500 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m65.608 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m88.442 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m82.158 ms - 162[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m68.854 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m75.560 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m90.633 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m61.541 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m77.089 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m72.031 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m97.331 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m81.425 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m83.528 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m68.973 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m168.954 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m169.085 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m150.713 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m84.012 ms - 916[0m
+[0mGET /js/main.js [32m200 [0m177.849 ms - -[0m
+[0mGET /js/dashboard.js [32m200 [0m81.896 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m70.986 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /getInventoryItem [32m200 [0m101.894 ms - 924[0m
+[0mGET /icon.png [32m200 [0m79.985 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m111.832 ms - 224[0m
+[0mGET /dashboard [32m200 [0m221.044 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m72.566 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m71.546 ms - 75200[0m
+[0mGET /css/lib/chosen.css [32m200 [0m87.175 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m93.068 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m85.914 ms - -[0m
+[0mGET /css/main.css [32m200 [0m82.898 ms - -[0m
+[0mGET /dashboard [32m200 [0m207.369 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m196.827 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m184.940 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m196.078 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m186.325 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m204.053 ms - -[0m
+[0mGET /dashboard [0m- [0m- ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m63.313 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m236.007 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m263.150 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m239.304 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m242.832 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m256.927 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m237.047 ms - -[0m
+[0mGET /dashboard [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m130.143 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m162.444 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m159.612 ms - -[0m
+[0mGET /dashboard [32m200 [0m243.648 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m142.162 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m147.212 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m126.266 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m130.807 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m75.382 ms - 163[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m66.502 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m61.946 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [0m- [0m- ms - -[0m
+[0mGET /js/main.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/knockout-debug.js [0m- [0m- ms - -[0m
+[0mGET /dashboard [32m200 [0m162.365 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m66.073 ms - 162[0m
+[0mGET /css/lib/chosen.css [32m200 [0m71.995 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m78.631 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m80.894 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m77.360 ms - 75200[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m91.915 ms - -[0m
+[0mGET /css/main.css [32m200 [0m93.865 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m71.388 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m78.378 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m70.417 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m67.937 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m62.595 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m77.403 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m74.382 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m64.322 ms - 13156[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m67.162 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m83.077 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m73.698 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m70.703 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m67.290 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m73.035 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m321.434 ms - 163[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m319.576 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m315.403 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m328.241 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m305.758 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m70.928 ms - 162[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m62.250 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m65.285 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m68.677 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m76.995 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m62.761 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m73.197 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m58.645 ms - -[0m
+[0mGET /js/main.js [32m200 [0m71.197 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m61.995 ms - 210[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m63.542 ms - -[0m
+[0mGET /js/dashboard.js [32m200 [0m68.945 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m78.174 ms - 916[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mGET /icon.png [32m200 [0m63.960 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m100.179 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m108.366 ms - 924[0m
+[0mGET /logout [36m302 [0m67.769 ms - 56[0m
+[0mGET /login [32m200 [0m134.009 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m30.849 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m40.598 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m36.797 ms - 210[0m
+[0mPOST /login [36m302 [0m134.228 ms - 54[0m
+[0mGET /home [32m200 [0m159.394 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m61.999 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m59.830 ms - 210[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m81.566 ms - 163[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m350.549 ms - 224[0m
+[0mGET /dashboard [32m200 [0m131.625 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m59.330 ms - 210[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m67.147 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m79.263 ms - 163[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /foodCategories [32m200 [0m102.202 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m111.453 ms - 924[0m
+[0mGET /dashboard [32m200 [0m252.617 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m64.822 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m65.619 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m76.535 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m73.466 ms - 75200[0m
+[0mGET /css/lib/chosen.css [32m200 [0m80.606 ms - -[0m
+[0mGET /css/main.css [32m200 [0m63.820 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m64.644 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m63.117 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m65.401 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m69.706 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m78.406 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m73.132 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m68.182 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m65.424 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m63.023 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m70.030 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m84.125 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m75.987 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m94.884 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m78.786 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m64.208 ms - 162[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m77.448 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m88.695 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m68.519 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m73.256 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m73.150 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m62.895 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m66.097 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m63.405 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m67.238 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m83.925 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m146.340 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m128.220 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m157.495 ms - -[0m
+[0mGET /js/dashboard.js [32m200 [0m106.929 ms - -[0m
+[0mGET /js/main.js [32m200 [0m109.232 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m110.994 ms - 916[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m61.536 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mGET /icon.png [32m200 [0m63.926 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m98.990 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m107.288 ms - 924[0m
+[0mGET /dashboard [32m200 [0m261.562 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m64.447 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m74.750 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m63.685 ms - 75200[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m74.578 ms - -[0m
+[0mGET /css/main.css [32m200 [0m82.597 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m87.640 ms - 37636[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m71.103 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m75.501 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m68.858 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m75.356 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m81.765 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m75.789 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m70.810 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m70.370 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m74.407 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m72.276 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m69.971 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m86.701 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m82.633 ms - 163[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m76.704 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m69.173 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m73.731 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m76.066 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m94.744 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m73.547 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m74.597 ms - 162[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m63.249 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m72.468 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m65.518 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m73.939 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m96.230 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m77.820 ms - -[0m
+[0mGET /js/main.js [32m200 [0m128.926 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m147.876 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m136.201 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m148.647 ms - 916[0m
+[0mGET /js/dashboard.js [32m200 [0m141.135 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m63.190 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mGET /icon.png [32m200 [0m75.016 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m120.119 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m116.217 ms - 924[0m
+[0mGET /logout [36m302 [0m69.939 ms - 56[0m
+[0mGET /login [32m200 [0m157.457 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m32.546 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m31.416 ms - 210[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m42.477 ms - 163[0m
+[0mPOST /login [36m302 [0m141.920 ms - 54[0m
+[0mGET /home [32m200 [0m172.408 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m64.560 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m73.840 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m76.701 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m100.944 ms - 224[0m
+[0mGET /dashboard [32m200 [0m163.002 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m87.798 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m85.062 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m78.658 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /foodCategories [32m200 [0m108.394 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m116.167 ms - 924[0m
+[0mGET /dashboard [32m200 [0m147.527 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m75.500 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m71.866 ms - -[0m
+[0mGET /css/main.css [32m200 [0m71.909 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m72.324 ms - 37636[0m
+[0mGET /dummy_men.png [32m200 [0m75.848 ms - 75200[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m76.808 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m67.265 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m78.577 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m72.737 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m78.754 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m81.196 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m80.142 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m74.882 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m79.465 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m66.721 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m81.595 ms - 163[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m77.986 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m74.952 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m73.801 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m76.948 ms - 162[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m75.821 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m63.594 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m71.949 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m72.582 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m93.957 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m66.510 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m69.936 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m75.879 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m70.181 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m76.046 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m79.339 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m70.738 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m81.249 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m75.247 ms - 916[0m
+[0mGET /js/dashboard.js [32m200 [0m67.465 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m72.037 ms - -[0m
+[0mGET /js/main.js [32m200 [0m74.909 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m75.392 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mGET /icon.png [32m200 [0m72.305 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m114.698 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m102.206 ms - 924[0m
+[0mGET /dashboard [32m200 [0m148.817 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m74.563 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m77.381 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m81.085 ms - 37636[0m
+[0mGET /dummy_men.png [32m200 [0m68.457 ms - 75200[0m
+[0mGET /css/main.css [32m200 [0m74.946 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m93.165 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m66.682 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m67.503 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m68.664 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m77.604 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m88.656 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m72.948 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m87.246 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m79.707 ms - 13156[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m65.136 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m63.584 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m76.963 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m84.125 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m83.367 ms - 163[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m82.234 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m79.713 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m84.611 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m83.632 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m75.917 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m71.789 ms - 162[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m77.360 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m71.605 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m83.486 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m69.145 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m137.325 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m70.077 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m132.773 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m78.903 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m78.793 ms - -[0m
+[0mGET /js/main.js [32m200 [0m64.439 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m78.926 ms - 210[0m
+[0mGET /js/comman.js [32m200 [0m68.407 ms - 916[0m
+[0mGET /js/dashboard.js [32m200 [0m80.390 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mGET /icon.png [32m200 [0m62.330 ms - 13156[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /getInventoryItem [32m200 [0m105.919 ms - 924[0m
+[0mPOST /foodCategories [32m200 [0m116.398 ms - 224[0m
+[0mGET /dashboard [32m200 [0m185.030 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m66.971 ms - 75200[0m
+[0mGET /images/newlogo.png [32m200 [0m77.574 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m78.880 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m85.067 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m76.350 ms - -[0m
+[0mGET /css/main.css [32m200 [0m76.734 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m75.637 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m70.332 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m67.365 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m74.747 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m71.484 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m72.033 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m72.054 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m72.746 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m65.373 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m70.183 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m65.436 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m65.720 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m72.748 ms - 163[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m75.899 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m71.634 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m69.506 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m76.624 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m71.290 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m70.631 ms - 162[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m72.767 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m69.210 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m73.381 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m73.327 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m67.133 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m70.809 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m67.804 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m69.358 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m69.187 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m74.659 ms - 916[0m
+[0mGET /js/main.js [32m200 [0m74.175 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m68.265 ms - 210[0m
+[0mGET /js/dashboard.js [32m200 [0m68.346 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mGET /icon.png [32m200 [0m69.869 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m104.764 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m106.919 ms - 924[0m
+[0mGET /dashboard [32m200 [0m163.330 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m66.455 ms - 37636[0m
+[0mGET /css/lib/chosen.css [32m200 [0m76.203 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m71.917 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m72.851 ms - 75200[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m71.824 ms - -[0m
+[0mGET /css/main.css [32m200 [0m71.803 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m67.646 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m68.514 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m63.539 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m65.901 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m70.909 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m73.014 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m65.710 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m73.259 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m68.445 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m71.915 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m73.228 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m67.986 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m67.003 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m78.854 ms - 163[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m68.338 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m78.946 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m66.017 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m69.733 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m66.654 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m68.742 ms - 162[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m66.231 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m65.323 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m82.802 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m73.205 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m79.105 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m70.764 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m75.090 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m200.008 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m214.929 ms - 916[0m
+[0mGET /js/main.js [32m200 [0m217.558 ms - -[0m
+[0mGET /js/dashboard.js [32m200 [0m218.440 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m66.753 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mGET /icon.png [32m200 [0m66.330 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m116.266 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m109.984 ms - 924[0m
+[0mGET /dashboard [32m200 [0m240.453 ms - -[0m
+[0mGET /dashboard [32m200 [0m182.393 ms - -[0m
+[0mGET /dashboard [32m200 [0m146.039 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m70.408 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m70.118 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m72.293 ms - 75200[0m
+[0mGET /images/newlogo.png [32m200 [0m70.360 ms - 37636[0m
+[0mGET /css/main.css [32m200 [0m71.450 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m84.084 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m81.133 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m82.701 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m81.078 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m81.840 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m98.722 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m68.335 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m68.341 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m74.600 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m68.244 ms - 163[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m75.525 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m78.375 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m69.350 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m71.426 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m67.167 ms - 162[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m74.665 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m65.197 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m70.155 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m66.804 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m70.669 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m70.132 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m69.694 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m67.595 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m64.971 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m77.661 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m74.079 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m67.717 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m63.957 ms - -[0m
+[0mGET /js/main.js [32m200 [0m69.296 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m64.632 ms - 916[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m67.515 ms - -[0m
+[0mGET /js/dashboard.js [32m200 [0m67.339 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m71.365 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mGET /icon.png [32m200 [0m65.463 ms - 13156[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m118.746 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m112.699 ms - 924[0m
+[0mGET /dashboard [32m200 [0m170.680 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m67.645 ms - 37636[0m
+[0mGET /css/lib/chosen.css [32m200 [0m80.032 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m74.138 ms - 75200[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m93.574 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m97.514 ms - -[0m
+[0mGET /css/main.css [32m200 [0m92.491 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m73.504 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m79.190 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m64.908 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m71.508 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m64.404 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m87.142 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m67.306 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m67.689 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m68.448 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m66.397 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m76.683 ms - 163[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m74.119 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m70.620 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m67.771 ms - 162[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m70.945 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m66.291 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m64.038 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m74.291 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m71.884 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m67.826 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m70.937 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m66.419 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m76.912 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m72.206 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m63.857 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m69.373 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m75.691 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m256.422 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m249.707 ms - 916[0m
+[0mGET /js/dashboard.js [32m200 [0m237.842 ms - -[0m
+[0mGET /js/main.js [32m200 [0m270.042 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m66.856 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mGET /icon.png [32m200 [0m67.401 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m113.091 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m105.904 ms - 924[0m
+[0mGET /dashboard [32m200 [0m277.324 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m90.683 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m88.119 ms - 37636[0m
+[0mGET /dummy_men.png [32m200 [0m82.298 ms - 75200[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m95.399 ms - -[0m
+[0mGET /css/main.css [32m200 [0m96.793 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m102.896 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m66.323 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m73.052 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m67.369 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m65.509 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m76.350 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m68.677 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m66.471 ms - 13156[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m65.317 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m74.760 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m72.967 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m70.039 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m67.583 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m67.184 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m73.288 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m69.350 ms - 162[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m65.170 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m71.273 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m72.066 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m68.944 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m63.132 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m70.188 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m63.679 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m65.797 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m64.015 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m74.828 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m67.681 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m65.232 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m73.217 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m87.387 ms - 916[0m
+[0mGET /js/main.js [32m200 [0m88.391 ms - -[0m
+[0mGET /js/dashboard.js [32m200 [0m66.478 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m70.098 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mGET /icon.png [32m200 [0m70.106 ms - 13156[0m
+[0mPOST /getInventoryItem [32m200 [0m104.846 ms - 924[0m
+[0mPOST /foodCategories [32m200 [0m103.972 ms - 224[0m
+[0mGET /dashboard [32m200 [0m161.038 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m100.343 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m94.580 ms - 75200[0m
+[0mGET /images/newlogo.png [32m200 [0m96.504 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m97.930 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m108.756 ms - -[0m
+[0mGET /css/main.css [32m200 [0m79.716 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m89.752 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m88.739 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m72.391 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m80.400 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m79.822 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m72.173 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m75.004 ms - 13156[0m
+[0mGET /js/lib/treemap.js [32m200 [0m65.531 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m67.869 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m67.124 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m69.816 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m75.682 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m69.363 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m74.799 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m69.107 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m66.689 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m72.463 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m72.577 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m77.281 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m65.534 ms - 162[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m64.616 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m69.240 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m66.701 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m72.053 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m71.608 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m72.474 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m130.276 ms - 916[0m
+[0mGET /js/main.js [32m200 [0m138.238 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m165.913 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m145.342 ms - -[0m
+[0mGET /js/dashboard.js [32m200 [0m69.490 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m70.016 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /foodCategories [32m200 [0m96.235 ms - 224[0m
+[0mGET /icon.png [32m200 [0m74.081 ms - 13156[0m
+[0mPOST /getInventoryItem [32m200 [0m104.359 ms - 924[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139737139398528:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/inventory_management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }

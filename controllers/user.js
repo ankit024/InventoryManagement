@@ -19,7 +19,13 @@ const randomBytesAsync = promisify(crypto.randomBytes);
  */
 exports.getLogin = (req, res) => {
   if (req.user) {
-    return res.redirect('/home');
+    if (req.user.role === 'chef') {
+      return res.redirect('/dashboard');
+
+    } else {
+
+      return res.redirect('/home');
+    }
   }
   res.render('account/login', {
     title: 'Login',
@@ -56,8 +62,14 @@ exports.postLogin = (req, res, next) => {
       }
       res.cookie('role', JSON.stringify(user.role), { maxAge: 180000000 });
       if (user.role.length) {
-        req.flash('success', { msg: 'Success! You are logged in.' });
-        res.redirect(req.session.returnTo || '/home');
+        if (user.role === 'chef') {
+          req.flash('success', { msg: 'Success! You are logged in.' });
+          res.redirect(req.session.returnTo || '/dashboard');
+        } else {
+          req.flash('success', { msg: 'Success! You are logged in.' });
+          res.redirect(req.session.returnTo || '/home');
+        }
+
       }
     });
   })(req, res, next);

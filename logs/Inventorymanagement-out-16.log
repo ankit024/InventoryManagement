@@ -1,0 +1,1455 @@
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140209987807104:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET / [32m200 [0m430.896 ms - -[0m
+[0mPOST / [36m302 [0m198.097 ms - 46[0m
+[0mGET / [36m302 [0m526.697 ms - 54[0m
+[0mGET /home [32m200 [0m260.959 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m123.445 ms - 224[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140018773522304:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140665253574528:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140526844798848:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /dashboard [32m200 [0m487.666 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m142.631 ms - 224[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /getInventoryItem [32m200 [0m677.778 ms - 924[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140033641568128:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /logout [36m302 [0m124.936 ms - 56[0m
+[0mGET /login [32m200 [0m825.475 ms - -[0m
+[0mGET /login [32m200 [0m179.462 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m393.459 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m46.537 ms - 37636[0m
+[0mGET /login [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m407.871 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m393.127 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m740.039 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m44.888 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m305.264 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m743.423 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m146.765 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m123.402 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m144.902 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [0m- [0m- ms - -[0m
+[0mGET /login [32m200 [0m145.249 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m41.497 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m35.531 ms - 37636[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m40.227 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m38.050 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [0m- [0m- ms - -[0m
+[0mGET /css/main.css [32m200 [0m40.649 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m38.861 ms - -[0m
+[0mGET /login [32m200 [0m126.679 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/modernizr.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/treemap.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/heat-map.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/wordcloud.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/highcharts.js [0m- [0m- ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m34.849 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m36.705 ms - 37636[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m34.517 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m39.609 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m37.099 ms - -[0m
+[0mGET /css/main.css [32m200 [0m34.809 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m34.184 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m33.651 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m36.690 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m36.073 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m37.392 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m36.953 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m35.545 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m34.088 ms - -[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m43.037 ms - 13584[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m37.548 ms - 17291[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m38.367 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m43.934 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m41.376 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m35.734 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m35.968 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m33.844 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m36.877 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m37.946 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m34.215 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m37.471 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m37.694 ms - -[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m47.118 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m53.573 ms - -[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m41.514 ms - -[0m
+[0mGET /icon.png [32m200 [0m34.126 ms - 13156[0m
+[0mPOST /login [36m302 [0m187.297 ms - 46[0m
+[0mGET / [36m302 [0m93.138 ms - 54[0m
+[0mGET /home [32m200 [0m602.371 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m141.695 ms - 224[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140154141824896:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139625706522496:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140279206385536:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140369497753472:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140555458508672:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139652905482112:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140318111725440:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139833908541312:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /home [32m200 [0m868.272 ms - -[0m
+[0mGET /home [32m200 [0m608.104 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m541.341 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m75.885 ms - 37636[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m541.933 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m969.846 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m969.911 ms - 75200[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m892.453 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m374.840 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m105.370 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m900.887 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m478.211 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m481.413 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m335.387 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m486.625 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m342.089 ms - 13156[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m338.262 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m333.312 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m67.412 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m83.062 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m80.555 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m72.693 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m90.072 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m81.380 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m83.487 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m77.558 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m85.040 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m83.641 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m92.490 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m82.795 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m88.025 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m72.029 ms - -[0m
+[0mGET /js/main.js [32m200 [0m70.675 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m92.272 ms - 916[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m93.486 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mGET /icon.png [32m200 [0m85.060 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m140.482 ms - 224[0m
+[0mGET /logout [36m302 [0m74.035 ms - 56[0m
+[0mGET /login [32m200 [0m143.473 ms - -[0m
+[0mGET /css/main.css [32m200 [0m34.160 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m39.585 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m38.255 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m44.099 ms - 210[0m
+TCL: exports.postLogin -> user { tokens: [],
+  _id: 5e3ac016ca717e66f4ac6ca7,
+  email: 'chef@gmail.com',
+  password: '$2b$10$HiUj5dSz8SWenOzIXRWzvOxueuXlXN7Bn5H/N1Rdh0QCV4ovyXM.S',
+  role: 'chef',
+  createdAt: 2020-02-05T13:16:06.737Z,
+  updatedAt: 2020-02-05T13:16:06.737Z,
+  __v: 0 }
+TCL: exports.postLogin -> user.role chef
+[0mPOST /login [36m302 [0m173.238 ms - 46[0m
+[0mGET / [36m302 [0m73.564 ms - 54[0m
+[0mGET /home [32m200 [0m267.126 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m78.957 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m92.889 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m70.956 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m144.042 ms - 224[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139997073168256:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140561875924864:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /logout [36m302 [0m1703.011 ms - 56[0m
+[0mGET /login [36m302 [0m75.573 ms - 54[0m
+[0mGET /home [32m200 [0m454.148 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m73.077 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m1236.052 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m1355.540 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m1331.527 ms - 224[0m
+[0mGET /logout [36m302 [0m74.793 ms - 56[0m
+[0mGET /login [32m200 [0m163.145 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m38.879 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m50.696 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m34.565 ms - 210[0m
+[0mGET /login [32m200 [0m157.102 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m41.530 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m38.739 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m50.501 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m39.028 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m372.040 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m433.498 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m36.460 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m40.402 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m57.782 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m67.834 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m57.401 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m58.108 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m34.115 ms - -[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m36.477 ms - 13584[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m38.906 ms - 163[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m39.016 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m44.577 ms - -[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m52.148 ms - 17291[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m39.297 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m43.910 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m39.369 ms - 162[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m35.870 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m33.829 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m38.276 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m39.458 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m50.611 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m37.628 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m41.284 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m39.703 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m36.640 ms - 210[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m40.429 ms - -[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m36.159 ms - -[0m
+[0mGET /icon.png [32m200 [0m37.675 ms - 13156[0m
+TCL: exports.postLogin -> user { tokens: [],
+  _id: 5e3ac016ca717e66f4ac6ca7,
+  email: 'chef@gmail.com',
+  password: '$2b$10$HiUj5dSz8SWenOzIXRWzvOxueuXlXN7Bn5H/N1Rdh0QCV4ovyXM.S',
+  role: 'chef',
+  createdAt: 2020-02-05T13:16:06.737Z,
+  updatedAt: 2020-02-05T13:16:06.737Z,
+  __v: 0 }
+TCL: exports.postLogin -> user.role string
+[0mPOST /login [36m302 [0m188.187 ms - 46[0m
+[0mGET / [36m302 [0m73.177 ms - 54[0m
+[0mGET /home [32m200 [0m268.111 ms - -[0m
+[0mGET /css/main.css [32m200 [0m70.555 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m70.727 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m75.011 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m473.256 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m427.681 ms - 224[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140704681121664:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140014860527488:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /home [32m200 [0m477.282 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m83.959 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m625.760 ms - 75200[0m
+[0mGET /images/newlogo.png [32m200 [0m1020.232 ms - 37636[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m926.432 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m796.807 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m1063.571 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m1052.398 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m778.041 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m775.395 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m64.551 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m82.497 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m476.242 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m412.806 ms - 13156[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m468.628 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m380.973 ms - 163[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m731.871 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m777.551 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m766.590 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m365.601 ms - 162[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m753.570 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m358.552 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m408.755 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m353.269 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m751.354 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m83.014 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m75.452 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m76.465 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m77.749 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m87.473 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m82.721 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m77.286 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m65.861 ms - -[0m
+[0mGET /js/comman.js [32m200 [0m75.077 ms - 916[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m72.986 ms - -[0m
+[0mGET /js/main.js [32m200 [0m85.701 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m69.793 ms - 210[0m
+[0mGET /icon.png [32m200 [0m68.738 ms - 13156[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m147.788 ms - 224[0m
+[0mGET /logout [36m302 [0m84.125 ms - 56[0m
+[0mGET /login [32m200 [0m206.337 ms - -[0m
+[0mGET /css/main.css [32m200 [0m36.350 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m42.519 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m46.073 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m38.211 ms - 210[0m
+TCL: exports.postLogin -> user { tokens: [],
+  _id: 5e3ac016ca717e66f4ac6ca7,
+  email: 'chef@gmail.com',
+  password: '$2b$10$HiUj5dSz8SWenOzIXRWzvOxueuXlXN7Bn5H/N1Rdh0QCV4ovyXM.S',
+  role: 'chef',
+  createdAt: 2020-02-05T13:16:06.737Z,
+  updatedAt: 2020-02-05T13:16:06.737Z,
+  __v: 0 }
+TCL: exports.postLogin -> user.role string
+[0mPOST /login [36m302 [0m170.929 ms - 46[0m
+TCL: exports.getLogin -> req.user { tokens: [],
+  _id: 5e3ac016ca717e66f4ac6ca7,
+  email: 'chef@gmail.com',
+  password: '$2b$10$HiUj5dSz8SWenOzIXRWzvOxueuXlXN7Bn5H/N1Rdh0QCV4ovyXM.S',
+  role: 'chef',
+  createdAt: 2020-02-05T13:16:06.737Z,
+  updatedAt: 2020-02-05T13:16:06.737Z,
+  __v: 0 }
+[0mGET / [36m302 [0m95.393 ms - 54[0m
+[0mGET /home [32m200 [0m251.303 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m71.929 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m78.423 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m77.574 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m111.470 ms - 224[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140309413840768:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139742740014976:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140145308936064:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140258145339264:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139636084639616:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139677123037056:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140052762212224:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139910827280256:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140166434301824:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /home [0m- [0m- ms - -[0m
+[0mGET /home [0m- [0m- ms - -[0m
+[0mGET /home [32m200 [0m1659.943 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m71.083 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m464.066 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m471.617 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m516.942 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m955.169 ms - 75200[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m966.871 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m462.146 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m490.384 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m972.649 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m933.903 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m830.056 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m343.913 ms - 13156[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m340.630 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m353.731 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m1001.434 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m77.122 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m72.539 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m92.534 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m80.649 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m85.234 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m82.811 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m74.530 ms - 163[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m77.755 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m75.843 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m107.462 ms - 162[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m93.518 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m96.641 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m85.866 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m82.825 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m67.221 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m81.944 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m74.139 ms - -[0m
+[0mGET /js/main.js [32m200 [0m87.460 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m97.243 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m72.009 ms - 210[0m
+[0mGET /js/comman.js [32m200 [0m87.400 ms - 916[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mGET /icon.png [32m200 [0m85.096 ms - 13156[0m
+[0mPOST /foodCategories [32m200 [0m138.335 ms - 224[0m
+[0mGET /logout [36m302 [0m88.647 ms - 56[0m
+[0mGET /login [32m200 [0m155.781 ms - -[0m
+[0mGET /css/main.css [32m200 [0m44.562 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m33.471 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m37.031 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m36.278 ms - 210[0m
+[0mGET /login [32m200 [0m118.766 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m34.065 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m36.861 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m37.549 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m46.392 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m39.150 ms - -[0m
+[0mGET /css/main.css [32m200 [0m48.643 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m34.046 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m35.937 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m43.626 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m44.093 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m57.272 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m63.787 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m41.721 ms - -[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m33.049 ms - 13584[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m32.256 ms - -[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m36.885 ms - 17291[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m34.628 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m34.300 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m46.401 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m34.075 ms - 163[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m45.592 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m45.636 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m35.160 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m35.255 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m33.389 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m37.043 ms - 162[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m47.506 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m48.013 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m125.820 ms - -[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m98.886 ms - -[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m124.308 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m153.011 ms - -[0m
+[0mGET /login [32m200 [0m126.213 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m33.894 ms - 210[0m
+[0mGET /css/lib/chosen.css [32m200 [0m33.105 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m33.154 ms - 37636[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m37.872 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m44.414 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m37.889 ms - -[0m
+[0mGET /css/main.css [32m200 [0m33.834 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/wordcloud.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m45.526 ms - -[0m
+[0mGET /js/lib/highcharts.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/heat-map.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/highcharts-more.js [0m- [0m- ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [0m- [0m- ms - -[0m
+[0mGET /login [32m200 [0m132.285 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m32.511 ms - 37636[0m
+[0mGET /css/lib/chosen.css [32m200 [0m36.982 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m36.603 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m32.734 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m37.241 ms - -[0m
+[0mGET /css/main.css [32m200 [0m49.683 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m54.471 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m40.019 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m44.049 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m46.375 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m46.360 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m59.013 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m49.797 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m33.317 ms - 163[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m38.428 ms - 17291[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m49.022 ms - 13584[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m39.140 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m41.699 ms - 162[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m45.746 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m34.009 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m42.060 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m34.674 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m32.965 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m34.311 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m36.061 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m33.143 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m45.998 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m35.599 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m39.892 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m36.947 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m44.747 ms - 210[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m42.072 ms - -[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m36.923 ms - -[0m
+[0mGET /icon.png [32m200 [0m34.211 ms - 13156[0m
+TCL: exports.postLogin -> user { tokens: [],
+  _id: 5e3ac016ca717e66f4ac6ca7,
+  email: 'chef@gmail.com',
+  password: '$2b$10$HiUj5dSz8SWenOzIXRWzvOxueuXlXN7Bn5H/N1Rdh0QCV4ovyXM.S',
+  role: 'chef',
+  createdAt: 2020-02-05T13:16:06.737Z,
+  updatedAt: 2020-02-05T13:16:06.737Z,
+  __v: 0 }
+TCL: exports.postLogin -> user.role string
+[0mPOST /login [36m302 [0m192.016 ms - 46[0m
+[0mGET / [36m302 [0m83.615 ms - 64[0m
+[0mGET /dashboard [32m200 [0m166.806 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m76.909 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m90.182 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m89.702 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /getInventoryItem [32m200 [0m125.009 ms - 924[0m
+[0mPOST /foodCategories [32m200 [0m158.397 ms - 224[0m
+[0mGET /logout [36m302 [0m90.916 ms - 56[0m
+[0mGET /login [32m200 [0m113.824 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m35.268 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m36.171 ms - 210[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m54.787 ms - 163[0m
+TCL: exports.postLogin -> user { tokens: [],
+  _id: 5e3abf98b98b3362302027eb,
+  email: 'manager@gmail.com',
+  password: '$2b$10$3uBk/XdFf3QvMdEVeAVubu17W40tfaAGdDUL5kwu6WDlixlZG8Guq',
+  role: 'manager',
+  createdAt: 2020-02-05T13:14:01.039Z,
+  updatedAt: 2020-02-05T13:14:01.039Z,
+  __v: 0 }
+TCL: exports.postLogin -> user.role string
+[0mPOST /login [36m302 [0m164.827 ms - 46[0m
+[0mGET / [36m302 [0m104.877 ms - 54[0m
+[0mGET /home [32m200 [0m267.737 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m70.405 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m68.317 ms - 210[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m99.120 ms - 162[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m135.925 ms - 224[0m
+[0mGET /themeAnalysis [32m200 [0m215.989 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m75.885 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m81.499 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m81.998 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m124.978 ms - 224[0m
+[0mGET /dashboard [32m200 [0m190.797 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m71.878 ms - 210[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m86.355 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m85.724 ms - 162[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+[0mPOST /foodCategories [32m200 [0m113.698 ms - 224[0m
+[0mPOST /getInventoryItem [32m200 [0m128.695 ms - 924[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140318080513920:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139871157659520:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140711163799424:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }

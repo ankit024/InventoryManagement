@@ -3,7 +3,7 @@ extends ../layout
 block content
   .container
     .row.card.colorCard
-      form.card-body.col-sm-12
+      form.card-body.col-sm-12.managerRoleTable
         table.display#inventoryManagementTable(style='width:100%')
             thead
                 tr
@@ -17,3 +17,15 @@ block content
                     th Bakery
                     th Italian
                     th Indian
+      form.card-body.col-sm-12.chefRoleTable
+        table.display#inventoryChefTable(style='width:100%')
+            thead
+                tr
+                    th Category
+                    th Items
+                    th Required Qty
+                    th Recieved Qty
+                    th Status
+                    th Bakery
+                    th Italian
+                    th Indian                    
