@@ -1,0 +1,57 @@
+extends ../layout
+
+block content
+    .main-content.margin-left-content
+        .container-fluid.px-5
+            .row
+                .col-sm-12.card.my-2
+                    .card-content
+                        .row.my-2
+                            .col-sm-12.card-border
+                                .whiteCard
+                                    .row
+                                        .col-sm-6
+
+                                            //- form(enctype='multipart/form-data')
+                                            //-     //- .file-loading
+                                            //-     input#file-0a.file(type='file', multiple='', data-min-file-count='1', data-theme='fas')
+                                            //-     br
+                                            //-     button.btn.btn-primary(type='submit') Submit
+                                            //-     button.btn.btn-outline-secondary(type='reset') Reset
+                                            //- hr
+                                            //- h5 Preupload Validation
+                                            //- input#file-0(name='file-0', type='file')
+                                            //- br
+                                            //- textarea#description.form-control(rows='3"', placeholder='Enter description for the files selected...')
+                                            //- br
+                                            //- form(enctype='multipart/form-data')
+                                            //-     label(for='file-0b') Test invalid input type
+                                            //-     .file-loading
+                                            //-         input#file-0b.file(name='file-0b', type='text', multiple='', data-min-file-count='1', data-theme='fas')
+                                                //- script.
+                                                //- $(document).on('ready', function () {
+                                                //- $("#file-0b").fileinput();
+                                                //- });
+                                            
+                                            form(enctype='multipart/form-data')
+                                                //- .file-loading
+                                                //-     input#file-0c.file(type='file', multiple='', data-min-file-count='1', data-theme='fas')
+                                                //- hr
+                                                //- .form-group
+                                                //-     .file-loading
+                                                //-         input#file-0d.file(type='file', data-theme='fas')
+                                                //- hr
+                                                    | saaaaaaaaaaaaaaaa
+                                                .form-group
+                                                    .file-loading
+                                                        input#file-1.file(name='audio_path', type='file', multiple='', data-overwrite-initial='false', data-min-file-count='0', data-theme='fas')
+                                                //- hr
+                                                //- .form-group
+                                                //-     .file-loading
+                                                //-         input#file-5.file(name='audio_path' type='file' multiple='' data-preview-file-type='any' data-upload-url='#' data-theme='fas')
+                                        .col-sm-6
+                                                #transcriptionResponse.scroll
+                                                    
+                                                    
+                                                
+                                                

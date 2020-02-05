@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  .container
+    .row.card.colorCard
+      form.card-body.col-sm-12#managerForm
+        h3.text-center Restuarnt Manager Form
+        .row
+          .col-sm-6.form-group
+            label(for="categoryDataChosen") Select Category
+            br
+            select.chosen-select.categoryDataChosen(data-placeholder='Select Category', tabindex='12', style="width: 100%;" )
+          .col-sm-6.form-group
+            label(for="itemDataChosen") Add Item
+            br
+            input#itemDataAdd.form-control(type='text', placeholder='Item' required)
+        .row
+          .col-sm-6.form-group
+            label(for="inputQuantity") Add Quantity
+            br
+            input#inputQuantity.form-control(type='number', placeholder='Quantity' required)
+          .col-sm-6.form-group
+            label(for="inputQuantity") Select Cuisines
+            select.chosen-select.cusiniesMultipleSelect(data-placeholder='Select Cusinies', tabindex='12', style="width: 100%;" multiple required)
+                option(value="bakery") Bakery  
+                option(value="italian") Italian
+                option(value="indian") Indian
+        .row
+          .col-sm-12.text-center.form-group
+            button.btn.btn-primary.submitManagerForm.px-2(type='button') Submit
+
+
+                                        

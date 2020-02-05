@@ -1,0 +1,29 @@
+.navbar.navbar-light.fixed-top.navbar-expand-lg
+  .container-fluid
+    img(src="../images/newlogo.png" height="34px")
+      //- i.fas.fa-cube
+      //- | Project name
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+      span.sr-only Toggle navigation
+      span.navbar-toggler-icon
+    .collapse.navbar-collapse.justify-content-between
+      if user
+        ul.nav.navbar-nav.bottomBorderDesign.mx-5
+          li.borderBottomCustomCss.summaryActiveCookieClick(class=(title === 'Home') ? 'active' : undefined)
+            a(href='/' style="font-weight: bold;") Add Items
+          li.borderBottomCustomCss.themeanalysisActiveCookieClick(class=(title === 'ThemeAnalysis') ? 'active' : undefined)
+            a(href='/themeAnalysis' style="font-weight: bold;") Vendor Quanitty
+          li.borderBottomCustomCss.themeanalysisActiveCookieClick(class=(title === 'Dashboard') ? 'active' : undefined)
+            a(href='/dashboard' style="font-weight: bold;") Dashobard             
+      ul.nav.navbar-nav.navbar-right
+        if !user
+        else
+          li.dropdown(class=(title === 'Account Management') ? 'active' : undefined , style="padding-right: 15px;")
+            a.dropdown-toggle(href='#', data-toggle='dropdown')
+              img(src="/dummy_men.png" )
+              span(style="text-transform: lowercase")= user.agent_name || user.email || user.role
+              i.caret
+            ul.dropdown-menu
+              li.divider
+              li
+                a(href='/logout') Logout

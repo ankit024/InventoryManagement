@@ -1,0 +1,58 @@
+TypeError: req.assert is not a function
+    at exports.postSignup (/home/ankit/code/SPIQ/controllers/user.js:86:7)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ankit/code/SPIQ/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/home/ankit/code/SPIQ/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:317:13)
+    at /home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/ankit/code/SPIQ/app.js:118:3)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:317:13)
+    at /home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/ankit/code/SPIQ/app.js:104:3)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:317:13)
+    at /home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:275:10)
+    at xssProtection (/home/ankit/code/SPIQ/node_modules/lusca/lib/xssprotection.js:16:9)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+TypeError: req.assert is not a function
+    at exports.postLogin (/home/ankit/code/SPIQ/controllers/user.js:35:7)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ankit/code/SPIQ/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/home/ankit/code/SPIQ/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:317:13)
+    at /home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/ankit/code/SPIQ/app.js:118:3)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:317:13)
+    at /home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/ankit/code/SPIQ/app.js:104:3)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:317:13)
+    at /home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ankit/code/SPIQ/node_modules/express/lib/router/index.js:275:10)
+    at xssProtection (/home/ankit/code/SPIQ/node_modules/lusca/lib/xssprotection.js:16:9)
+    at Layer.handle [as handle_request] (/home/ankit/code/SPIQ/node_modules/express/lib/router/layer.js:95:5)

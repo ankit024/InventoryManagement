@@ -1,0 +1,126 @@
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139998841595776:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /signup [32m200 [0m12207.384 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m323.466 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m91.955 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m334.792 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m13462.608 ms - 37636[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m12146.577 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m13457.934 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m13.986 ms - 13156[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m5306.603 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m5312.225 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m5318.374 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [32m200 [0m45.325 ms - 75728[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m5726.574 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m37.755 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m16.732 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m29.679 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m32.884 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m12.167 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m9.563 ms - -[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m34.451 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m21.205 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m26.092 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m26.312 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m27.307 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m24.282 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m32.242 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m5.527 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m8.214 ms - -[0m
+[0mGET /js/sidebar.js [32m200 [0m5.770 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m14.253 ms - -[0m
+[0mGET /js/signup.js [32m200 [0m20.773 ms - 120[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m30.807 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m31.010 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m38.289 ms - -[0m
+[0mGET /icon.png [32m200 [0m19.893 ms - 13156[0m
+[0mPOST /signup [31m500 [0m233.726 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m3.950 ms - 150[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140507623597952:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET / [32m200 [0m6265.052 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m58.493 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m62.278 ms - 37636[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m449.598 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m622.691 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m513.700 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m5863.942 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m5450.275 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m32.790 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m12062.331 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m37.503 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m7879.835 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m7894.136 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m63.430 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m43.906 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m52.647 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m42.891 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m58.792 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m32.773 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m48.359 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m3.441 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m6.445 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m3.721 ms - -[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m89.784 ms - 13584[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m90.998 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m84.335 ms - -[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m9.386 ms - -[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m20.588 ms - 17291[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m33.213 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m56.096 ms - -[0m
+[0mGET /icon.png [32m200 [0m17.962 ms - 13156[0m
+[0mPOST / [31m500 [0m376.820 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m4.749 ms - 150[0m

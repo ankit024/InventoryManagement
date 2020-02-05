@@ -1,0 +1,448 @@
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140045454419840:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET / [32m200 [0m527.566 ms - -[0m
+[0mGET / [0m- [0m- ms - -[0m
+[0mGET / [32m200 [0m8643.479 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m17.041 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m16.414 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m469.594 ms - 37636[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m16.668 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m468.197 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m305.803 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m296.638 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m307.910 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m8.860 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m7.581 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m307.290 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m14.666 ms - -[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m13.725 ms - 17291[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m13.574 ms - 13584[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m26.494 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m10.846 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m21.043 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m13.518 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m9.923 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m10.009 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m11.543 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m7.951 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m8.989 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m6.144 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m7.057 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m6.097 ms - -[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m4.414 ms - -[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m4.953 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m5.196 ms - -[0m
+[0mGET /icon.png [32m200 [0m3.068 ms - 13156[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140517291583360:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140535817873280:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET / [32m200 [0m510.908 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m11.325 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m304.283 ms - 37636[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m304.717 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m757.979 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m757.103 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m757.241 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m584.162 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m769.088 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m466.384 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m9.804 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m9.825 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m9.851 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m9.827 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m2.655 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m10.377 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m13.668 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m9.029 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m7.406 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m9.102 ms - -[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m2.397 ms - 13584[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m2.951 ms - 17291[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m2.230 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m2.437 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m5.336 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m9.428 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m9.776 ms - -[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m2.017 ms - -[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m2.985 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m8.320 ms - -[0m
+[0mGET /icon.png [32m200 [0m2.449 ms - 13156[0m
+[0mPOST / [31m500 [0m23.597 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m5.407 ms - 150[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140462972151680:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140167658329984:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139882098796416:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140373793646464:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139793661339520:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140235351058304:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mPOST / [36m302 [0m55.153 ms - 56[0m
+[0mGET /login [32m200 [0m522.775 ms - -[0m
+[0mPOST /login [36m302 [0m17.617 ms - 56[0m
+[0mGET /login [32m200 [0m279.539 ms - -[0m
+[0mGET /css/main.css [32m200 [0m5.777 ms - -[0m
+[0mGET /signup [32m200 [0m205.642 ms - -[0m
+[0mPOST /signup [36m302 [0m7.046 ms - 46[0m
+[0mGET / [32m200 [0m160.263 ms - -[0m
+[0mGET /signup [32m200 [0m154.555 ms - -[0m
+[0mPOST /signup [36m302 [0m103.746 ms - 46[0m
+[0mGET / [36m302 [0m10.293 ms - 54[0m
+[0mGET /home [32m200 [0m231.926 ms - -[0m
+[0mGET /js/main.js [32m200 [0m5.760 ms - -[0m
+[0mGET /dummy_men.png [32m200 [0m82.773 ms - 75200[0m
+[0mGET /css/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [32m200 [0m6.983 ms - 77160[0m
+[0mGET /css/chosen-sprite.png [32m200 [0m7.762 ms - 538[0m
+[0mGET /logout [36m302 [0m6.489 ms - 56[0m
+[0mGET /login [32m200 [0m144.177 ms - -[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140468287563648:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140193408153472:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139829571454848:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140046837327744:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }

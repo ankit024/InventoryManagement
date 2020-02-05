@@ -1,0 +1,95 @@
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139630649882496:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET / [32m200 [0m11015.251 ms - -[0m
+[0mPOST / [31m500 [0m287.817 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m4.794 ms - 150[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139969632814976:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mPOST / [31m500 [0m26.892 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m7.043 ms - 150[0m
+[0mPOST / [31m500 [0m5.295 ms - -[0m
+[0mGET / [32m200 [0m596.991 ms - -[0m
+[0mGET / [32m200 [0m218.962 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m15.526 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m5774.187 ms - 37636[0m
+[0mGET /css/main.css [32m200 [0m484.984 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m5779.428 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m6071.725 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m5777.725 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m5607.788 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m5312.161 ms - -[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m5.237 ms - 17291[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m5613.881 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m2.112 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m2.705 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m3.046 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m2.051 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m2.230 ms - -[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m65.537 ms - 13584[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m18.009 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m8.070 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m7.069 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m5.760 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m6.802 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m6.268 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m2.551 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m2.498 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m2.608 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m4.295 ms - -[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m3.980 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m2.593 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m3.958 ms - -[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m6.795 ms - -[0m
+[0mGET /icon.png [32m200 [0m2.511 ms - 13156[0m

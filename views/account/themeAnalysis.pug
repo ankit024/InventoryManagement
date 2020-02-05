@@ -1,0 +1,31 @@
+extends ../layout
+
+block content
+  .container
+    .row.card.colorCard
+      form.card-body.col-sm-12#vendor1Form
+        h3.text-center Vendors Form
+        .row
+          .col-sm-6.form-group
+            label(for="categoryDataChosenVendor1") Select Category
+            br
+            select.chosen-select.categoryDataChosenVendor1(data-placeholder='Select Category', tabindex='12', style="width: 100%;" required)
+              option(value="") 
+          .col-sm-6.form-group
+            label(for="itemDataChosen") Add Item
+            br
+            select.chosen-select.itemChosenVendor1(data-placeholder='Select Category', tabindex='12', style="width: 100%;" required)
+        .row
+          .col-sm-6.form-group
+            label(for="inputQuantity") Add Quantity
+            br
+            input.vendorSelectChosenQuantity.form-control(type='number', placeholder='Quantity' required)
+          .col-sm-6.form-group
+            label(for="vendorSelectData") Select Vendor
+            br
+            select.chosen-select.vendorSelectData(data-placeholder='Select Category', tabindex='12', style="width: 100%;" required)
+                option(value="vendor1") Vendor 1 
+                option(value="vendor2") Vendor 2           
+        .row
+          .col-sm-12.text-center.form-group
+            button.btn.btn-primary.submitvendor1Form.px-2(type='button') Submit

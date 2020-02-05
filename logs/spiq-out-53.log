@@ -1,0 +1,103 @@
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140369336952704:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET / [32m200 [0m3650.674 ms - -[0m
+[0mGET /css/lib/chosen.css [32m200 [0m158.544 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m152.928 ms - 37636[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m7974.775 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m11969.918 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m16582.379 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m11973.582 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m15248.931 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m10251.632 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m4960.732 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m32.570 ms - -[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m31.045 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m41.332 ms - -[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m47.587 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m22.916 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m23.056 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m21.210 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m50.402 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m62.987 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m62.221 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m32.913 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m12.601 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m8.044 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m70.741 ms - -[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m41.003 ms - 17291[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m5.117 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m84.272 ms - -[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m16.362 ms - -[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m44.938 ms - 13584[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m62.922 ms - -[0m
+[0mGET /icon.png [32m200 [0m36.777 ms - 13156[0m
+[0mGET /signup [32m200 [0m589.653 ms - -[0m
+[0mGET /css/main.css [32m200 [0m2.890 ms - -[0m
+[0mGET /js/lib/jquery.bootstrap.wizard.min.js [32m200 [0m66.162 ms - -[0m
+[0mGET /js/lib/jquery.dataTables.min.js [32m200 [0m69.161 ms - -[0m
+[0mGET /js/sidebar.js [32m200 [0m8.800 ms - -[0m
+[0mGET /js/signup.js [32m200 [0m8.517 ms - 120[0m
+[0mGET /js/lib/jquery.validate.min.js [32m200 [0m16.734 ms - -[0m
+[0mGET /js/lib/content-filter.js [32m200 [0m139.007 ms - -[0m
+[0mGET /images/icon.png [32m200 [0m3.707 ms - 13156[0m
+[0mGET /webfonts/fa-solid-900.woff2 [32m200 [0m35.876 ms - 75728[0m
+[0mPOST /signup [31m500 [0m335.187 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m7.285 ms - 150[0m
+[0mPOST /signup [31m500 [0m4.706 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m3.364 ms - 150[0m
+[0mGET /login [32m200 [0m371.954 ms - -[0m
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         4300
+MongoDB:      mongodb://s1:27018/TruAgent
+URL:          http://localhost:4300/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140508622305152:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/code/SPIQ/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /signup [32m200 [0m5364.834 ms - -[0m

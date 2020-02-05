@@ -1,0 +1,152 @@
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb://localhost:27017/Tccc_test
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140509800392576:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/inventory_management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /home [0m- [0m- ms - -[0m
+[0mGET /home [0m- [0m- ms - -[0m
+[0mGET /home [0m- [0m- ms - -[0m
+✗ MongoDB connection error. Please make sure MongoDB is running.
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb://localhost:27017/Tccc_test
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139660060804992:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/inventory_management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+✗ MongoDB connection error. Please make sure MongoDB is running.
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb://localhost:27017/Tccc_test
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140550408284032:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/inventory_management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+✗ MongoDB connection error. Please make sure MongoDB is running.
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb://localhost:27017/Tccc_test
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 139898327938944:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/inventory_management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET / [32m200 [0m792.658 ms - -[0m
+[0mGET /images/newlogo.png [32m200 [0m1169.467 ms - 37636[0m
+[0mGET /css/lib/chosen.css [32m200 [0m489.602 ms - -[0m
+[0mGET /css/lib/flag-icon.css [32m200 [0m1181.378 ms - -[0m
+[0mGET /js/lib/ion.rangeSlider.min.js [32m200 [0m1406.410 ms - -[0m
+[0mGET /js/lib/jquery-3.1.1.min.js [32m200 [0m1861.041 ms - -[0m
+[0mGET /css/lib/font-awesome/css/font-awesome.min.css [32m200 [0m1863.311 ms - -[0m
+[0mGET /js/lib/highcharts.js [32m200 [0m1340.897 ms - -[0m
+[0mGET /js/lib/wordcloud.js [32m200 [0m683.399 ms - -[0m
+[0mGET /js/lib/inputTags.jquery.js [32m200 [0m464.322 ms - -[0m
+[0mGET /js/lib/heat-map.js [32m200 [0m288.157 ms - -[0m
+[0mGET /js/lib/treemap.js [32m200 [0m288.348 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m230.598 ms - 163[0m
+[0mGET /webfonts/fa-regular-400.woff2 [32m200 [0m331.141 ms - 13584[0m
+[0mGET /js/lib/bootstrap-multiselect.js [32m200 [0m364.606 ms - -[0m
+[0mGET /backgroundSPIQ.png [32m200 [0m247.409 ms - 17291[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m323.433 ms - 162[0m
+[0mGET /js/lib/jquery.cookie.js [32m200 [0m259.850 ms - -[0m
+[0mGET /js/lib/bootstrap.min.js [32m200 [0m366.432 ms - -[0m
+[0mGET /js/lib/jquery-caret.min.js [32m200 [0m251.819 ms - -[0m
+[0mGET /js/lib/jquery-tag-editor.min.js [32m200 [0m331.584 ms - -[0m
+[0mGET /js/lib/modernizr.js [32m200 [0m309.844 ms - -[0m
+[0mGET /js/lib/jquery.mixitup.min.js [32m200 [0m295.670 ms - -[0m
+[0mGET /js/lib/jqcloud-1.0.4.min.js [32m200 [0m549.642 ms - -[0m
+[0mGET /js/lib/moment.min.js [32m200 [0m323.565 ms - -[0m
+[0mGET /js/lib/chosen.jquery.js [32m200 [0m427.332 ms - -[0m
+[0mGET /js/lib/chosen.jquery.min.js [32m200 [0m420.970 ms - -[0m
+[0mGET /js/lib/datetimepicker.min.js [32m200 [0m258.038 ms - -[0m
+[0mGET /js/lib/daterangepicker.min.js [32m200 [0m259.456 ms - -[0m
+[0mGET /js/lib/knockout-debug.js [32m200 [0m277.002 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m456.045 ms - 210[0m
+[0mGET /js/lib/highcharts-more.js [32m200 [0m453.281 ms - -[0m
+[0mGET /css/lib/daterangepicker.css [32m200 [0m270.087 ms - -[0m
+[0mGET /icon.png [32m200 [0m340.457 ms - 13156[0m
