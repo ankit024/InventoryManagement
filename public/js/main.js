@@ -7,7 +7,6 @@ $(document).ready(() => {
   let itemChosenVendor1 = $('.itemChosenVendor1');
   let itemChosenVendor2 = $('.itemChosenVendor2');
   let submitvendor1Form = $('.submitvendor1Form');
-  let submitvendor2Form = $('.submitvendor2Form');
   let vendorSelectData = $('.vendorSelectData');
   let vendorSelectChosenQuantity = $('.vendorSelectChosenQuantity')
   let itemActiveCookieClick = $('.itemActiveCookieClick')
@@ -52,9 +51,6 @@ $(document).ready(() => {
     });
   };
 
-
-
-
   submitFormButton.click(() => {
     let role = roleDefine;
     let category = $('.categoryDataChosen').val();
@@ -68,10 +64,11 @@ $(document).ready(() => {
       XHRCall(url, queryData, true).then((responseData) => {
         $('#loader').hide();
         $("form")[0].reset();
+        $('.cusiniesMultipleSelect').chosen('destroy');
+        $('.cusiniesMultipleSelect').chosen('');
       });
     }
   });
-
 
   categoryDataChosenVendor1.on('change', function (e) {
     $(itemChosenVendor1).empty();
@@ -92,23 +89,6 @@ $(document).ready(() => {
     });
   });
 
-  // categoryDataChosenVendor2.on('change', function (e) {
-  //   $(itemChosenVendor2).empty();
-  //   let categoryData = categoryDataChosenVendor2.val();
-  //   let category = categoryData;
-  //   let role = 'manager';
-  //   const url = 'getItemName';
-  //   const queryData = { category, role };
-  //   XHRCall(url, queryData, true).then((responseData) => {
-  //     let Data = responseData.response;
-  //     Data.forEach((name, index) => {
-  //       itemChosenVendor2.append(`
-  //       <option dataId= '${name._id}' value='${name.itemName}'>${name.itemName}</option>
-  //       `);
-  //     });
-  //     $(itemChosenVendor2).trigger("chosen:updated")
-  //   });
-  // });
 
   submitvendor1Form.click(() => {
     let role = roleDefine;
@@ -128,23 +108,6 @@ $(document).ready(() => {
       });
     }
   });
-
-  // submitvendor2Form.click(() => {
-  //   let role = roleDefine;
-  //   let category = $('.categoryDataChosenVendor2').val();
-  //   let itemName = $('.itemChosenVendor2').val()
-  //   let quantity = $('#inputQuantityVendor2').val();
-  //   if (itemName.length != 0 && quantity.length != 0) {
-  //     $('#loader').show();
-  //     const url = 'addRequirementForVendor2';
-  //     const queryData = { category, itemName, quantity, role };
-  //     XHRCall(url, queryData, true).then((responseData) => {
-  //       console.log("TCL: responseData", responseData)
-  //       $('#loader').hide();
-  //       $("form")[0].reset();
-  //     });
-  //   }
-  // });
 
   fetchCategoryItemCall();
 

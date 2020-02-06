@@ -1,6 +1,6 @@
 .navbar.navbar-light.fixed-top.navbar-expand-lg
   .container-fluid
-    img(src="../images/newlogo.png" height="34px")
+    img(src="../images/newlogo.png" height="50px")
       //- i.fas.fa-cube
       //- | Project name
     button.navbar-toggler(type='button', data-toggle='collapse', data-target='.navbar-collapse')
@@ -14,7 +14,7 @@
           li.borderBottomCustomCss.QuantityActiveCookieClick(class=(title === 'ThemeAnalysis') ? 'active' : undefined)
             a(href='/themeAnalysis' style="font-weight: bold;") Vendor Quantity
           li.borderBottomCustomCss.themeanalysisActiveCookieClick(class=(title === 'Dashboard') ? 'active' : undefined)
-            a(href='/dashboard' style="font-weight: bold;") Dashobard             
+            a(href='/dashboard' style="font-weight: bold;") Dashboard             
       ul.nav.navbar-nav.navbar-right
         if !user
         else
