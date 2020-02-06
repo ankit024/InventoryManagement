@@ -1,0 +1,191 @@
+ 
+ 
+ 
+------------------------------------------
+App is running with following parameters:
+Environment:  development
+Port:         8080
+MongoDB:      mongodb+srv://ankit:Ankit@cluster0-sex6d.mongodb.net/test?retryWrites=true&w=majority
+URL:          http://localhost:8080/
+------------------------------------------
+ 
+ 
+ 
+{ Error: tunneling socket could not be established, cause=write EPROTO 140528040359808:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:827:
+
+    at ClientRequest.onError (/home/ankit/Desktop/Inventory_Management/node_modules/tunnel-agent/index.js:177:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at TLSSocket.emit (events.js:211:7)
+    at onwriteError (_stream_writable.js:418:12)
+    at onwrite (_stream_writable.js:440:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at TLSSocket.Socket._destroy (net.js:564:3)
+    at TLSSocket.destroy (internal/streams/destroy.js:32:8)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:866:10) code: 'ECONNRESET' }
+[0mGET /login [32m200 [0m554.303 ms - -[0m
+[0mGET /icon.png [32m200 [0m68.870 ms - 13156[0m
+[0mPOST /login [36m302 [0m201.369 ms - 46[0m
+[0mGET / [36m302 [0m727.251 ms - 54[0m
+[0mGET /home [32m200 [0m273.520 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m122.241 ms - 224[0m
+[0mGET /home [32m200 [0m226.950 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m426.472 ms - 224[0m
+[0mGET /icon.png [32m200 [0m423.537 ms - 13156[0m
+[0mGET /logout [36m302 [0m91.270 ms - 56[0m
+[0mGET /login [36m302 [0m79.928 ms - 54[0m
+[0mGET /home [32m200 [0m192.139 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m106.155 ms - 224[0m
+[0mGET /logout [36m302 [0m85.614 ms - 56[0m
+[0mGET /login [32m200 [0m128.945 ms - -[0m
+[0mPOST /login [36m302 [0m159.747 ms - 46[0m
+[0mGET / [36m302 [0m62.493 ms - 54[0m
+[0mGET /home [32m200 [0m182.933 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m105.874 ms - 224[0m
+[0mGET /logout [36m302 [0m63.388 ms - 56[0m
+[0mGET /login [32m200 [0m131.410 ms - -[0m
+[0mPOST /login [36m302 [0m141.233 ms - 46[0m
+[0mGET / [36m302 [0m63.734 ms - 54[0m
+[0mGET /home [32m200 [0m176.134 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m109.505 ms - 224[0m
+[0mGET /themeAnalysis [32m200 [0m260.033 ms - -[0m
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /foodCategories [32m200 [0m107.848 ms - 224[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m65.322 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m74.947 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m1327.788 ms - 210[0m
+[0mGET /dashboard [32m200 [0m208.563 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m67.346 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m75.126 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m906.459 ms - 210[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /getInventoryItem [32m200 [0m895.243 ms - 924[0m
+[0mPOST /foodCategories [32m200 [0m904.827 ms - 224[0m
+[0mGET /logout [36m302 [0m75.466 ms - 56[0m
+[0mGET /login [32m200 [0m156.941 ms - -[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m33.958 ms - 163[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m37.535 ms - 162[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m32.845 ms - 210[0m
+[0mPOST /login [36m302 [0m136.361 ms - 46[0m
+[0mGET / [36m302 [0m69.350 ms - 64[0m
+[0mGET /dashboard [32m200 [0m157.390 ms - -[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m120.674 ms - 210[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m135.355 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m149.279 ms - 163[0m
+TCL: exports.getFoodCategoryItem -> data [ { foodCategory: [ 'bakery', 'italian', 'indian' ],
+    _id: 5e3a7142c70d21191156fa06,
+    category: 'flour',
+    itemName: 'wheat',
+    quantity: 70,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7153c70d21191156fa09,
+    category: 'vegetable',
+    itemName: 'Onions',
+    quantity: 80,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] },
+  { foodCategory: [],
+    _id: 5e3a7160c70d21191156fa0c,
+    category: 'fats',
+    itemName: 'butter',
+    quantity: 60,
+    role: 'manager',
+    vendor: [ [Object], [Object] ] } ]
+TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
+    name: 'flour',
+    displayName: 'Flour' },
+  { _id: 5e391aef1c9d440000b9dc6e,
+    name: 'fats',
+    displayName: 'Fats' },
+  { _id: 5e391b071c9d440000b9dc6f,
+    name: 'vegetable',
+    displayName: 'Vegetables' } ]
+[0mPOST /getInventoryItem [32m200 [0m94.400 ms - 924[0m
+[0mPOST /foodCategories [32m200 [0m107.337 ms - 224[0m

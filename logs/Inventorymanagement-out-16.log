@@ -2011,3 +2011,8 @@ TCL: exports.getFoodCategoryItem -> data [ { _id: 5e391ada1c9d440000b9dc6d,
 [0mGET /css/chosen-sprite.png [32m200 [0m74.970 ms - 538[0m
 [0mPOST /foodCategories [32m200 [0m93.705 ms - 224[0m
 [0mGET /icon.png [32m200 [0m67.416 ms - 13156[0m
+[0mGET /logout [36m302 [0m63.262 ms - 56[0m
+[0mGET /login [32m200 [0m185.185 ms - -[0m
+[0mGET /js/lib/wordcloud.js.map [33m404 [0m28.639 ms - 162[0m
+[0mGET /js/lib/highcharts.js.map [33m404 [0m33.906 ms - 163[0m
+[0mGET /sm/8cfffddf058dc09b67d92f8d849675e6b459dfb8ede5136cf5c98d10acf78cc3.map [33m404 [0m27.234 ms - 210[0m
