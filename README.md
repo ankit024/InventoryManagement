@@ -2,7 +2,7 @@
 
 1. Clone or download the zip folder.
 2. Open the project in any IDE (preferably VSCode)
-3. Open the terminal and write: ```npm install -i```
+3. Open the terminal and write: ```npm install i```
 4. Run command ```npm install pm2 -g```
 5. Run command ```pm2 start ecosystem.config.js```
 6. Open the url: ```http://localhost:8080``` in your browser
