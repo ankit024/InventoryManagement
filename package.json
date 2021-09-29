@@ -41,7 +41,7 @@
     "express-validator": "^5.3.0",
     "fbgraph": "^1.4.4",
     "googleapis": "^44.0.0",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "instagram-node": "^0.5.8",
     "jquery": "^3.4.1",
     "lastfm": "^0.9.3",
